@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- 헤더 -->
-    <header class="top-header">
+    <header class="top-header top-header-transparent">
       <div class="header_top">
         <div class="header_column">
           <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
@@ -41,23 +41,27 @@
     <!-- 메인 -->
     <main class="profile">
       <header class="profile_header">
-        <img src="images/avatar.jpg" />
-        <h3 class="profile_header-title">Nicolas</h3>
+        <div class="profile_header-container">
+          <img src="images/avatar.jpg" />
+          <h3 class="profile_header-title">Nicolas</h3>
+        </div>
       </header>
-      <input type="text" placeholder="kh1267@naver.com" />
-      <div class="profile_actions">
-        <span class="profile_action">
-          <span class="profile_ation-circle">
-            <i class="fas fa-comment fa-2x"></i>
+      <div class="profile_container">
+        <input type="text" placeholder="kh1267@naver.com" />
+        <div class="profile_actions">
+          <span class="profile_action">
+            <span class="profile_ation-circle">
+              <i class="fas fa-comment fa-lg"></i>
+            </span>
+            <span class="profile_action-title">My Chatroom</span>
           </span>
-          <span class="profile_action-title">My Chatroom</span>
-        </span>
-        <span class="profile_action">
-          <span class="profile_ation-circle">
-            <i class="fas fa-pencil-alt fa-2x"></i>
+          <span class="profile_action">
+            <span class="profile_ation-circle">
+              <i class="fas fa-pencil-alt fa-lg"></i>
+            </span>
+            <span class="profile_action-title">Edit Profile</span>
           </span>
-          <span class="profile_action-title">Edit Profile</span>
-        </span>
+        </div>
       </div>
     </main>
   </body>

@@ -1,0 +1,62 @@
+.top-header-transparent {
+  background-color: transparent;
+}
+
+.profile .profile_header {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT63eD1j0RN46jmgw3zCa_G20NQzNXX54kDNKcX63qCdQ3bqvs");
+  background-size: 70%;
+  background-position: center center;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile_header .profile_header-container {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+.profile_header-container img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile_container input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.profile_actions {
+  display: flex;
+}
+.profile_action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.profile_ation-circle {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+.profile_action-title {
+  font-size: 10px;
+  font-weight: 600;
+}
